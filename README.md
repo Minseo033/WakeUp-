@@ -44,6 +44,6 @@
 | :---: | :---: |
 | <img src="https://github.com/user-attachments/assets/41661838-253a-4a64-9494-6c672418528b" width="250"/> | <img src="https://github.com/user-attachments/assets/b9882f7c-cbde-4dcd-bb57-2ef6c2037418" width="250"/> |
 
-| ⚙️ 설정 화면 1 | ⚙️ 설정 화면 2 | 
-| :---: | :---: | :---: |
-| <img src="https://github.com/user-attachments/assets/8631b104-6a2c-478c-9c73-c8019364e256" width="200"/> | <img src="https://github.com/user-attachments/assets/13eff4b4-863c-4310-8220-459e8d5cf8bd" width="200"/> 
+| ⚙️ 설정 화면 1 | ⚙️ 설정 화면 2 |
+| :---: | :---: |
+| <img src="https://github.com/user-attachments/assets/8631b104-6a2c-478c-9c73-c8019364e256" width="200"/> | <img src="https://github.com/user-attachments/assets/13eff4b4-863c-4310-8220-459e8d5cf8bd" width="200"/> |
