@@ -1,11 +1,11 @@
-# ⏰ WakeUp! - 미션 수행 스마트 알람 앱
+<img width="275" height="549" alt="탭" src="https://github.com/user-attachments/assets/dc5362c8-6f96-4ee8-84cf-b23a491fe962" /># ⏰ WakeUp! - 미션 수행 스마트 알람 앱
 
 [![Android](https://img.shields.io/badge/Android-Kotlin-green?logo=android)](https://developer.android.com)
-[![Award](https://img.shields.io/badge/Award-2025 스마트앱_경진대회_장려상-gold)](https://github.com/Minseo033/WakeUp-)
+[![Award](https://img.shields.io/badge/Award-2025%20DMU%20스마트앱_경진대회_장려상-gold)](https://github.com/Minseo033/WakeUp-)
 
 > **"더 이상 알람을 끄고 다시 잠들지 마세요. 확실하게 깨워드립니다."**
 > 
-> **🏆 2025 스마트앱 경진대회 장려상 수상작**
+> **🏆 2025 DMU 스마트앱 경진대회 장려상 수상작**
 
 ## 📱 프로젝트 소개
 **WakeUp**은 사용자가 수학 문제, 흔들기, 타자 입력 등 능동적인 미션을 수행해야만 알람이 꺼지는 안드로이드 앱입니다.
@@ -26,6 +26,14 @@
 * **UI:** XML Layout, Custom Views (막대그래프 직접 구현)
 
 ## 📂 발표 자료
-[📄 발표 기획서 및 자료 보러가기](./presentation/WakeUp발표자료.pdf)
-
----
+[📄 발표 자료 보러가기](./presentation/WakeUp발표자료.pdf)
+<img width="276" height="553" alt="메인" src="https://github.com/user-attachments/assets/8414d39f-6c77-4114-9ab0-6b331f2a9256" />
+<img width="286" height="550" alt="미션없음" src="https://github.com/user-attachments/assets/77b2fbd8-f8b1-4150-92f3-4bf1df57ba18" />
+<img width="275" height="551" alt="수학" src="https://github.com/user-attachments/assets/fe839186-0095-4cc6-abda-ec70b4dc370b" />
+<img width="276" height="548" alt="흔들기" src="https://github.com/user-attachments/assets/403ef525-1530-4e7a-b0be-5e18b17bc686" />
+<img width="275" height="546" alt="타자입력" src="https://github.com/user-attachments/assets/dd0a433b-a615-4dfb-8032-e16a3be07b2c" />
+<img width="275" height="549" alt="탭" src="https://github.com/user-attachments/assets/b199c1bb-236c-464c-b6dc-0d8c19d85a99" />
+<img width="277" height="529" alt="분석 1" src="https://github.com/user-attachments/assets/41661838-253a-4a64-9494-6c672418528b" />
+<img width="272" height="364" alt="분석 2"<img width="1080" height="2160" alt="설정 1" src="https://github.com/user-attachments/assets/8631b104-6a2c-478c-9c73-c8019364e256" />
+ src="https://github.com/user-attachments/assets/b9882f7c-cbde-4dcd-bb57-2ef6c2037418" />
+<img width="1080" height="2160" alt="설정 2" src="https://github.com/user-attachments/assets/13eff4b4-863c-4310-8220-459e8d5cf8bd" />
