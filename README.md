@@ -1,4 +1,4 @@
-<img width="275" height="549" alt="탭" src="https://github.com/user-attachments/assets/dc5362c8-6f96-4ee8-84cf-b23a491fe962" /># ⏰ WakeUp! - 미션 수행 스마트 알람 앱
+# ⏰ WakeUp! - 미션 수행 스마트 알람 앱
 
 [![Android](https://img.shields.io/badge/Android-Kotlin-green?logo=android)](https://developer.android.com)
 [![Award](https://img.shields.io/badge/Award-2025%20DMU%20스마트앱_경진대회_장려상-gold)](https://github.com/Minseo033/WakeUp-)
@@ -27,13 +27,23 @@
 
 ## 📂 발표 자료
 [📄 발표 자료 보러가기](./presentation/WakeUp발표자료.pdf)
-<img width="276" height="553" alt="메인" src="https://github.com/user-attachments/assets/8414d39f-6c77-4114-9ab0-6b331f2a9256" />
-<img width="286" height="550" alt="미션없음" src="https://github.com/user-attachments/assets/77b2fbd8-f8b1-4150-92f3-4bf1df57ba18" />
-<img width="275" height="551" alt="수학" src="https://github.com/user-attachments/assets/fe839186-0095-4cc6-abda-ec70b4dc370b" />
-<img width="276" height="548" alt="흔들기" src="https://github.com/user-attachments/assets/403ef525-1530-4e7a-b0be-5e18b17bc686" />
-<img width="275" height="546" alt="타자입력" src="https://github.com/user-attachments/assets/dd0a433b-a615-4dfb-8032-e16a3be07b2c" />
-<img width="275" height="549" alt="탭" src="https://github.com/user-attachments/assets/b199c1bb-236c-464c-b6dc-0d8c19d85a99" />
-<img width="277" height="529" alt="분석 1" src="https://github.com/user-attachments/assets/41661838-253a-4a64-9494-6c672418528b" />
-<img width="272" height="364" alt="분석 2"<img width="1080" height="2160" alt="설정 1" src="https://github.com/user-attachments/assets/8631b104-6a2c-478c-9c73-c8019364e256" />
- src="https://github.com/user-attachments/assets/b9882f7c-cbde-4dcd-bb57-2ef6c2037418" />
-<img width="1080" height="2160" alt="설정 2" src="https://github.com/user-attachments/assets/13eff4b4-863c-4310-8220-459e8d5cf8bd" />
+
+## 📸 스크린샷
+
+### 메인 및 미션 화면
+| 메인 화면 | 알람 화면 (미션X) |
+| :---: | :---: |
+| <img src="https://github.com/user-attachments/assets/8414d39f-6c77-4114-9ab0-6b331f2a9256" width="250"/> | <img src="https://github.com/user-attachments/assets/77b2fbd8-f8b1-4150-92f3-4bf1df57ba18" width="250"/> |
+
+| 🧮 수학 미션 | 📱 흔들기 미션 | ⌨️ 타자 미션 | 👆 연타 미션 |
+| :---: | :---: | :---: | :---: |
+| <img src="https://github.com/user-attachments/assets/fe839186-0095-4cc6-abda-ec70b4dc370b" width="200"/> | <img src="https://github.com/user-attachments/assets/403ef525-1530-4e7a-b0be-5e18b17bc686" width="200"/> | <img src="https://github.com/user-attachments/assets/dd0a433b-a615-4dfb-8032-e16a3be07b2c" width="200"/> | <img src="https://github.com/user-attachments/assets/b199c1bb-236c-464c-b6dc-0d8c19d85a99" width="200"/> |
+
+### 수면 분석 및 설정
+| 📊 분석 화면 1 | 📊 분석 화면 2 |
+| :---: | :---: |
+| <img src="https://github.com/user-attachments/assets/41661838-253a-4a64-9494-6c672418528b" width="250"/> | <img src="https://github.com/user-attachments/assets/b9882f7c-cbde-4dcd-bb57-2ef6c2037418" width="250"/> |
+
+| ⚙️ 설정 화면 1 | ⚙️ 설정 화면 2 | ⚙️ 설정 (미션/탭) |
+| :---: | :---: | :---: |
+| <img src="https://github.com/user-attachments/assets/8631b104-6a2c-478c-9c73-c8019364e256" width="200"/> | <img src="https://github.com/user-attachments/assets/13eff4b4-863c-4310-8220-459e8d5cf8bd" width="200"/> | <img src="https://github.com/user-attachments/assets/dc5362c8-6f96-4ee8-84cf-b23a491fe962" width="200"/> |
