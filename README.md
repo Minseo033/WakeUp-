@@ -1,7 +1,7 @@
 # ⏰ WakeUp! - 미션 수행 스마트 알람 앱
 
 [![Android](https://img.shields.io/badge/Android-Kotlin-green?logo=android)](https://developer.android.com)
-[![Award](https://img.shields.io/badge/Award-2025_스마트앱_경진대회_장려상-gold)](https://github.com/Minseo033/WakeUp-)
+[![Award](https://img.shields.io/badge/Award-2025_DMU 스마트앱_경진대회_장려상-gold)](https://github.com/Minseo033/WakeUp-)
 
 > **"더 이상 알람을 끄고 다시 잠들지 마세요. 확실하게 깨워드립니다."**
 > 
