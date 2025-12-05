@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="bottom_bar_background">#F5F1FF</color>
+
+    <color name="nav_item_color_active">#5C4BEB</color>
+    <color name="nav_item_color_inactive">#A1A1A1</color>
+
+
+    <color name="header_purple">#5C4BEB</color>
+    <color name="alarm_card_background">#F3ECFF</color>
+
+    <color name="home_background">#F7F7FF</color>
+    <color name="header_blue">#4F46FF</color>
+    <color name="alarm_time_color">#111827</color>
+    <color name="alarm_label_color">#4B5563</color>
+    <color name="mission_chip_bg">#E5D8FF</color>
+    <color name="mission_chip_text">#5C3EF2</color>
+
+    <color name="text_color">#111827</color>
+
+    <color name="shake_green">#4CAF50</color> <color name="shake_count_text">#333333</color>
+    <color name="tap_orange">#FF9800</color>
+    <color name="typing_purple">#7E57C2</color> <color name="typing_purple_bg">#F3E5F5</color>
+
+    <color name="analysis_header_blue">#64B5F6</color>
+    <color name="chart_purple">#9C27B0</color>
+    <color name="chart_orange">#FFA726</color>
+    <color name="ai_card_bg">#E3F2FD</color>
+    <color name="ai_icon_bg">#64B5F6</color>
+    <color name="goal_badge_bg">#E3F2FD</color>
+    <color name="goal_badge_text">#1976D2</color>
+
+    <color name="chip_bg_math">#FFF9C4</color>   <color name="chip_bg_shake">#C8E6C9</color>  <color name="chip_bg_tap">#FFE0B2</color>    <color name="chip_bg_typing">#E1BEE7</color> <color name="chip_bg_none">#F5F5F5</color>   <color name="chip_text_math">#FBC02D</color>
+    <color name="chip_text_shake">#388E3C</color>
+    <color name="chip_text_tap">#F57C00</color>
+    <color name="chip_text_typing">#7B1FA2</color>
+    <color name="chip_text_none">#9E9E9E</color>
+
+    <color name="day_chip_bg_on">#E3F2FD</color>
+    <color name="day_chip_text_on">#1976D2</color>
+    <color name="day_chip_bg_off">#F5F5F5</color>
+    <color name="day_chip_text_off">#BDBDBD</color>
+
+    <color name="setting_blue">#64B5F6</color> <color name="setting_gray_bg">#F5F5F5</color> <color name="btn_selected">#64B5F6</color> <color name="btn_unselected">#EEEEEE</color> <color name="text_dark">#212121</color>
+    <color name="text_gray">#757575</color>
+</resources>

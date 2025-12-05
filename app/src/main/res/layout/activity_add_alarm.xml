@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#F5F5F5">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:background="@color/analysis_header_blue"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingStart="12dp"
+        android:paddingEnd="12dp">
+
+        <ImageButton
+            android:id="@+id/close_button"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:background="@android:color/transparent"
+            android:src="@android:drawable/ic_menu_close_clear_cancel"
+            android:tint="@android:color/white" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="새 알람 추가"
+            android:textColor="@android:color/white"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <View
+            android:layout_width="32dp"
+            android:layout_height="32dp" />
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="20dp">
+
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="시간" android:textSize="14sp" android:textColor="@color/alarm_label_color" android:layout_marginBottom="8dp" />
+            <LinearLayout android:layout_width="match_parent" android:layout_height="220dp" android:background="@drawable/bg_time_card" android:gravity="center" android:layout_marginBottom="24dp">
+                <TimePicker android:id="@+id/time_picker" android:layout_width="wrap_content" android:layout_height="wrap_content" android:timePickerMode="spinner" />
+            </LinearLayout>
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="알람 소리" android:textSize="14sp" android:textColor="@color/alarm_label_color" android:layout_marginBottom="8dp" />
+            <LinearLayout android:id="@+id/btn_ringtone_select" android:layout_width="match_parent" android:layout_height="wrap_content" android:background="@drawable/bg_label_input" android:paddingHorizontal="16dp" android:paddingVertical="12dp" android:layout_marginBottom="24dp" android:gravity="center_vertical" android:clickable="true" android:focusable="true">
+                <ImageView android:layout_width="24dp" android:layout_height="24dp" android:src="@drawable/ic_volume_up" android:tint="@color/alarm_label_color"/>
+                <TextView android:id="@+id/tv_ringtone_name" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:layout_marginStart="12dp" android:text="기본 알람음" android:textSize="14sp" android:textColor="@color/alarm_time_color" android:maxLines="1" android:ellipsize="end"/>
+                <ImageView android:layout_width="24dp" android:layout_height="24dp" android:src="@drawable/ic_navigate_next" android:tint="@color/alarm_label_color"/>
+            </LinearLayout>
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="레이블" android:textSize="14sp" android:textColor="@color/alarm_label_color" android:layout_marginBottom="8dp" />
+            <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:background="@drawable/bg_label_input" android:paddingHorizontal="16dp" android:paddingVertical="8dp" android:layout_marginBottom="24dp" android:gravity="center_vertical">
+                <EditText android:id="@+id/label_input" android:layout_width="match_parent" android:layout_height="40dp" android:background="@android:color/transparent" android:hint="알람 이름을 입력하세요" android:textSize="14sp" android:textColor="@color/alarm_time_color" />
+            </LinearLayout>
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="반복" android:textSize="14sp" android:textColor="@color/alarm_label_color" android:layout_marginBottom="8dp" />
+            <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="horizontal" android:gravity="center_horizontal" android:layout_marginBottom="24dp">
+                <CheckBox android:id="@+id/mon_check" android:layout_width="0dp" android:layout_height="36dp" android:layout_weight="1" android:button="@null" android:gravity="center" android:background="@drawable/day_chip_background_selector" android:text="월" android:textColor="@color/day_chip_text_color_selector" android:textSize="13sp" android:checked="true" android:layout_marginEnd="4dp" />
+                <CheckBox android:id="@+id/tue_check" android:layout_width="0dp" android:layout_height="36dp" android:layout_weight="1" android:button="@null" android:gravity="center" android:background="@drawable/day_chip_background_selector" android:text="화" android:textColor="@color/day_chip_text_color_selector" android:textSize="13sp" android:checked="true" android:layout_marginEnd="4dp" />
+                <CheckBox android:id="@+id/wed_check" android:layout_width="0dp" android:layout_height="36dp" android:layout_weight="1" android:button="@null" android:gravity="center" android:background="@drawable/day_chip_background_selector" android:text="수" android:textColor="@color/day_chip_text_color_selector" android:textSize="13sp" android:checked="true" android:layout_marginEnd="4dp" />
+                <CheckBox android:id="@+id/thu_check" android:layout_width="0dp" android:layout_height="36dp" android:layout_weight="1" android:button="@null" android:gravity="center" android:background="@drawable/day_chip_background_selector" android:text="목" android:textColor="@color/day_chip_text_color_selector" android:textSize="13sp" android:checked="true" android:layout_marginEnd="4dp" />
+                <CheckBox android:id="@+id/fri_check" android:layout_width="0dp" android:layout_height="36dp" android:layout_weight="1" android:button="@null" android:gravity="center" android:background="@drawable/day_chip_background_selector" android:text="금" android:textColor="@color/day_chip_text_color_selector" android:textSize="13sp" android:checked="true" android:layout_marginEnd="4dp" />
+                <CheckBox android:id="@+id/sat_check" android:layout_width="0dp" android:layout_height="36dp" android:layout_weight="1" android:button="@null" android:gravity="center" android:background="@drawable/day_chip_background_selector" android:text="토" android:textColor="@color/day_chip_text_color_selector" android:textSize="13sp" android:layout_marginEnd="4dp" />
+                <CheckBox android:id="@+id/sun_check" android:layout_width="0dp" android:layout_height="36dp" android:layout_weight="1" android:button="@null" android:gravity="center" android:background="@drawable/day_chip_background_selector" android:text="일" android:textColor="@color/day_chip_text_color_selector" android:textSize="13sp" />
+            </LinearLayout>
+            <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="horizontal" android:gravity="center_vertical" android:layout_marginBottom="8dp">
+                <ImageView android:layout_width="20dp" android:layout_height="20dp" android:src="@android:drawable/ic_menu_info_details" android:tint="@color/alarm_label_color" />
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="6dp" android:text="알람 해제 미션" android:textSize="14sp" android:textColor="@color/alarm_label_color" />
+            </LinearLayout>
+
+            <RadioGroup
+                android:id="@+id/mission_group"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <RadioButton
+                    android:id="@+id/mission_none"
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:background="@drawable/bg_mission_option_selected"
+                    android:button="@null"
+                    android:gravity="center_vertical"
+                    android:paddingStart="16dp"
+                    android:paddingEnd="16dp"
+                    android:text="미션 없음"
+                    android:textColor="@android:color/white"
+                    android:textSize="14sp"
+                    android:checked="true" />
+
+                <RadioButton
+                    android:id="@+id/mission_math"
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:background="@drawable/bg_mission_row"
+                    android:button="@null"
+                    android:gravity="center_vertical"
+                    android:paddingStart="16dp"
+                    android:paddingEnd="16dp"
+                    android:text="수학 문제"
+                    android:textColor="@color/text_color"
+                    android:textSize="14sp"
+                    android:drawableStart="@drawable/calcu"
+                    android:drawableTint="#757575"
+                    android:drawablePadding="12dp" />
+
+                <RadioButton
+                    android:id="@+id/mission_shake"
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:background="@drawable/bg_mission_row"
+                    android:button="@null"
+                    android:gravity="center_vertical"
+                    android:paddingStart="16dp"
+                    android:paddingEnd="16dp"
+                    android:text="폰 흔들기"
+                    android:textColor="@color/text_color"
+                    android:textSize="14sp"
+                    android:drawableStart="@drawable/ic_smartphone"
+                    android:drawableTint="#757575"
+                    android:drawablePadding="12dp" />
+
+                <RadioButton
+                    android:id="@+id/mission_tap"
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:background="@drawable/bg_mission_row"
+                    android:button="@null"
+                    android:gravity="center_vertical"
+                    android:paddingStart="16dp"
+                    android:paddingEnd="16dp"
+                    android:text="연타하기"
+                    android:textColor="@color/text_color"
+                    android:textSize="14sp"
+                    android:drawableStart="@drawable/ic_touch_app"
+                    android:drawableTint="#757575"
+                    android:drawablePadding="12dp" />
+
+                <RadioButton
+                    android:id="@+id/mission_typing"
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:background="@drawable/bg_mission_row"
+                    android:button="@null"
+                    android:gravity="center_vertical"
+                    android:paddingStart="16dp"
+                    android:paddingEnd="16dp"
+                    android:text="타자 입력"
+                    android:textColor="@color/text_color"
+                    android:textSize="14sp"
+                    android:drawableStart="@drawable/ic_keyboard"
+                    android:drawableTint="#757575"
+                    android:drawablePadding="12dp" />
+            </RadioGroup>
+
+            <CheckBox
+                android:id="@+id/check_custom_sentence"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="나만의 문장 사용하기"
+                android:textColor="@color/text_dark"
+                android:layout_marginTop="8dp"
+                android:layout_gravity="end"
+                android:visibility="gone" />
+
+        </LinearLayout>
+    </ScrollView>
+
+    <Button
+        android:id="@+id/save_alarm_button"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:text="알람 추가"
+        android:textSize="16sp"
+        android:textColor="@android:color/white"
+        android:background="@color/analysis_header_blue"
+        android:layout_margin="16dp" />
+
+</LinearLayout>
