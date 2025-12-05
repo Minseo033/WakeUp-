@@ -65,8 +65,7 @@ object SleepAnalyzer {
                     // 통계 리스트에 추가
                     sleepDurations.add(sleepDuration)
                 }
-            } catch (e: Exception) {
-                e.printStackTrace()
+            } catch (e: Exception) {e.printStackTrace()
             }
         }
 
